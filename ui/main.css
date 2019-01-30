@@ -1,0 +1,154 @@
+/* Contains css formating for politico voting system */
+
+nav{
+    background-color: #afb946;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    height: 25px;
+    width: 100%;
+    top: 0;
+    left:0;
+    position: fixed;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+}
+nav ul li{
+    float: left;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+nav ul li:first-child{
+    font-family: 'Righteous', cursive;
+    color:#236421;
+    padding-left:0px;
+    margin-left:-28px;
+    padding-right: 50px;
+    font-size: 22px;
+}
+/* nav ul li:nth-last-child(1),:nth-last-child(2),:nth-last-child(3){
+    float: right;
+    margin-right:20px;
+} */
+nav ul li:last-child{
+    float: right;
+    margin-right:20px;
+}
+nav ul li a{
+    color: #f0f8ff;
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-content{
+    background-color:#a3a73f7a;
+    border-radius: 10px;
+    padding: 20px;
+    top:50px;
+    left: 19px;
+    right: 10px;
+    width: 94%;
+    height: 472px;
+    max-height: 472px;
+    position: fixed;
+    overflow-y: scroll;
+}
+.main-content h1{
+    text-align: center;
+
+}
+.footer{
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #afb946;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: azure;
+}
+.politico{
+    font-family: 'Righteous', cursive;
+    color:#236421;
+}
+div.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    left: 0;
+    right: 0;
+    background-color: darkgrey;
+    padding: 10px;
+    font-size: 14px;
+}
+div.content{
+    position: relative;
+}
+div.formContent{
+    width: 475px;
+}
+div.label{
+    color: #236421c4;
+    width: 200px;
+    float: left;
+    margin-bottom: 5px;
+}
+div.textField{
+    width: 250px;
+    float: right;
+    margin-bottom: 5px;
+    
+}
+div.textField input{
+    padding: 8px;
+    border-radius: 5px;
+    width: 270px;
+}
+div.politicallabel{
+    color: #ffffff;
+    width: 320px;
+    float: left;
+    margin-bottom: 5px;
+    display: block;
+}
+div.politicalField{
+    /* width: 250px; */
+    float: left;
+    margin-bottom: 5px;
+    
+}
+div.clear{
+    clear: both;
+}
+.button{
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button-sub{
+    width: 154px;
+    background-color: white;
+    color:black;
+    border: 2px solid #afb946;
+}
+.button-sub:hover{
+    background-color: #afb946;
+    color:white;
+}
