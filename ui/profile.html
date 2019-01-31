@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Electronic Voting System">
+    <meta name="keywords" content="Voting Sytem, E-Vote, Politico">
+    <meta name="author" content="Frank Mochoge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politico - Profile</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous|Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand-nav">Politico</li>
+            <li><a href="#">User | Profile</a></li>
+            <li><a href="home.html">Dashboard</a></li>
+            <li><a href="parties.html">Political Parties</a></li>
+            <li><a href="vote.html">vote</a></li>
+            <li><a href="vie.html">Vie for Office</a></li>
+            <li><a href="index.html">Sign Out</a></li>
+        </ul>
+    </nav>
+    <div class="main-content">
+        <!-- <div class="sticky">Sign Up (Please fill in your details and submit to register)</div>
+        <br> -->
+        <form name="profile" method="POST" action="">
+            <div class="profile-pic">
+                <div class="label-pic">
+                    <label for="profilepic">Upload Picture(Optional):</label>
+                </div>
+                <div class="textField">
+                    <img class="img" src="default-profile-picture1-744x744.jpg" alt="Profile Picture" width="150"
+                        height="150">
+                </div>
+                <div class="clear"></div>
+                <div class="label">
+
+                </div>
+                <div class="textField">
+                    <button class="button button-sub" type="submit" value="Edit Profile" name="profileedit">Update
+                        Account</button>
+                </div>
+            </div>
+            <div class="formContent">
+
+                <div class="label">
+                    <label for="firstname">First Name:</label>
+                </div>
+                <div class="textField">
+                    <input type="text" name="firstname" id="firstname" value="" placeholder="First Name" required />
+                </div>
+                <div class="clear"></div>
+                <div class="label">
+                    <label for="middlename">Middle Name (Optional):</label>
+                </div>
+                <div class="textField">
+                    <input type="text" name="middlename" id="middlename" value="" placeholder="Middle Name" />
+                </div>
+                <div class="clear"></div>
+                <div class="label">
+                    <label for="lastname">Last Name:</label>
+                </div>
+                <div class="textField">
+                    <input type="text" name="lastname" id="lastname" value="" placeholder="Last Name" required />
+                </div>
+                <div class="clear"></div>
+                <div class="label">
+                    <label for="nationalId">National ID/ Passport No:</label>
+                </div>
+                <div class="textField">
+                    <input type="text" name="nationalId" id="nationalId" value="" placeholder="National ID/ Passport No:"
+                        disabled />
+                </div>
+                <div class="clear"></div>
+                <div class="label">
+                    <label for="password">Password:</label>
+                </div>
+                <div class="textField">
+                    <input type="password" name="password" id="password" value="" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                        placeholder="Password" required />
+                </div>
+                <div class="clear"></div>
+                <div class="label">
+                    <label for="confirmPassword">Confirm Password:</label>
+                </div>
+                <div class="textField">
+                    <input type="password" name="confirmPassword" id="confirmPassword" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                        value="" placeholder="Confirm Password" required />
+                </div>
+                <div class="clear"></div>
+                <div class="label">
+                    <label for="dob">Date of Birth:</label>
+                </div>
+                <div class="textField">
+                    <input type="date" name="dob" id="dob" value="" placeholder="" required />
+                </div>
+                <div class="clear"></div>
+                <div class="label">
+                    <label for="constituency">Consitituency of Registration:</label>
+                </div>
+                <div class="textField">
+                    <input type="text" name="constituency" id="constituency" value="" placeholder="Constituency of Registration"
+                        title="Refers to the constituency where you have been registered as a voter" required />
+                </div>
+                <div class="clear"></div>
+                <div class="label">
+                    <label for="residence">Cuurent Residence:</label>
+                </div>
+                <div class="textField">
+                    <input type="text" name="residence" id="residence" value="" placeholder="Current Residence" title=""
+                        required />
+                </div>
+                <div class="clear"></div>
+                <div class="label">
+                    <label for="email">Email (Optional):</label>
+                </div>
+                <div class="textField">
+                    <input type="text" name="email" id="email" value="" placeholder="Email Address" title="" />
+                </div>
+                <div class="clear"></div>
+                <div class="label">
+                    <label for="mobile">Mobile Number:</label>
+                </div>
+                <div class="textField">
+                    <input type="text" name="mobile" id="mobile" pattern="(d){10}" value="" placeholder="Mobile Number"
+                        required />
+                </div>
+                <div class="clear"></div>
+                <div class="label">
+                    <label for="seat">User Type:</label>
+                </div>
+                <div class="textField">
+                    <select id="usertype" name="usertype" required>
+                        <option value="">Select User Type</option>
+                        <option value="C-1">Candidate</option>
+                        <option value="C-0">Normal User</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="footer">
+        <p>&#169; <span class="politico">Politico</span> Voting System 2019</p>
+    </div>
+</body>
+
+</html>
