@@ -121,6 +121,19 @@ body{
     position: fixed;
     overflow-y: scroll;
 }
+.main-content-vote{
+    background-color:transparent;
+    border-radius: 10px;
+    padding: 15px;
+    top:50px;
+    left: 19px;
+    right: 10px;
+    width: 96%;
+    height: 480px;
+    max-height: 480px;
+    position: fixed;
+    overflow-y: scroll;
+}
 .main-content h1{
     text-align: center;
 
@@ -310,4 +323,37 @@ table tr:nth-child(n+3):hover{
     border: 1px solid #a3a73f;
     width: 80%;
     height: 30%;
+}
+summary::-webkit-details-marker{
+    color:#236421
+}
+summary:focus{
+    outline-style: none;
+    font-weight: bold;
+}
+summary{
+    background-color: #b3b758;
+    margin: 2px;
+    width: 97.8%;
+    max-width: 97.8%;
+    padding: 12px;
+
+}
+.img-zoom{
+    transition: transform .2s;
+    transform-origin: left top;
+}
+.img-zoom:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.checkbox-vote{
+    -ms-transform: scale(2.5);
+    -moz-transform: scale(2.5);
+    -webkit-transform: scale(2.5);
+    -o-transform: scale(2.5);
+    transform: scale(2.5);
+    padding:15px;
 }
