@@ -180,6 +180,11 @@ div.textField input{
     border-radius: 5px;
     width: 270px;
 }
+div.textField select{
+    padding: 8px;
+    border-radius: 5px;
+    width: 290px;
+}
 div.politicallabel{
     color: #ffffff;
     width: 320px;
