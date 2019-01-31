@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Electronic Voting System">
+    <meta name="keywords" content="Voting Sytem, E-Vote, Politico">
+    <meta name="author" content="Frank Mochoge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politico - Candidate</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous|Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand-nav">Politico</li>
+            <li><a href="#">Candidate | Vie</a></li>
+            <li><a href="home.html">Dashboard</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="index.html">Sign Out</a></li>
+        </ul>
+    </nav>
+    <div class="main-content-admin">
+        <div class="formContent-admin">
+            <form name="signup" method="POST" action="">
+                <div class="formContent">
+
+                    <div class="label-new">
+                        <label for="seat">Select Office:</label>
+                    </div>
+                    <div class="textField">
+                        <select id="seat" name="seat" required>
+                            <option value="">Select Seat</option>
+                            <option value="SK-01">Presidential</option>
+                            <option value="SK-02">Gubernatorial Seat</option>
+                            <option value="SK-03">Senator</option>
+                        </select>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="label-new">
+                        <label for="party">Select Party:</label>
+                    </div>
+                    <div class="textField">
+                        <select id="party" name="party" required>
+                            <option value="">Select Party</option>
+                            <option value="PK001">New Party Kenya</option>
+                            <option value="PK-002">New Party Kenya</option>
+                            <option value="PK-003">New Party Kenya</option>
+                        </select>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="label-new">
+                        <label for="registration">Party Registration NO:</label>
+                    </div>
+                    <div class="textField">
+                        <input type="text" name="registration" id="registration" value="" placeholder="Party Registration NO:" required />
+                    </div>
+                    <div class="clear"></div>
+                    <div class="label-new">
+                        <label for="county">County of Interest<span class="comment">(Ignore if Presidential Seat is
+                                Selected)</span></label>
+                    </div>
+                    <div class="textField">
+                        <select id="county" name="county" required>
+                            <option value="">County of Interest</option>
+                            <option value="047">Nairobi</option>
+                            <option value="001">Mombasa</option>
+                            <option value="045">Kisii</option>
+                        </select>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="label-new">
+                        <label for="constituency">constituency of Interest<span class="comment">(Ignore if
+                                Gubernatorial Seat is Selected)</span></label>
+                    </div>
+                    <div class="textField">
+                        <select id="constituency" name="constituency" required>
+                            <option value="">Constituency of Interest</option>
+                            <option value="C001">Dagorreti</option>
+                            <option value="C002">Embakasi East</option>
+                            <option value="C003">Langata</option>
+                        </select>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="label-new">
+                        <label for="ward">Ward of Interest<span class="comment">(Ignore if MP Seat is Selected)</span></label>
+                    </div>
+                    <div class="textField">
+                        <select id="ward" name="ward" required>
+                            <option value="">Select Ward of Interest</option>
+                            <option value="W001">Pumwani</option>
+                            <option value="W002">Starehe</option>
+                            <option value="W003">Mihang'o</option>
+                        </select>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="label-new">
+                        <label for="electiondate">Election Date:</label>
+                    </div>
+                    <div class="textField">
+                        <input type="date" name="electiondate" id="electiondate" value="" placeholder="" required />
+                    </div>
+                    <div class="clear"></div>
+                    <div class="label-new">
+
+                    </div>
+                    <div class="textField">
+                        <button class="button button-sub" type="submit" value="vie" name="vie">Vie</button>
+                    </div>
+                </div>
+            </form>
+            <table>
+                <tr>
+                    <th colspan="6">Selected Offices</th>
+                </tr>
+                <tr>
+                    <th>Office Desc.</th>
+                    <th>Place of Interest</th>
+                    <th>Election Period</th>
+                    <th>Party</th>
+                    <th>Edit</th>
+                    <th>Cancel</th>
+                </tr>
+                <tr>
+                    <td>Gubernatorial Seat</td>
+                    <td>Mombasa</td>
+                    <td>22-01-2022</td>
+                    <td>New Party Kenya</td>
+                    <td><button>Edit</button></td>
+                    <td><button>Cancel</button></td>
+                </tr>
+            </table>
+
+
+        </div>
+    </div>
+    <div class="footer">
+        <p>&#169; <span class="politico">Politico</span> Voting System 2019</p>
+    </div>
+
+</body>
+<script type="text/javascript" src="admin.js"></script>
+
+</html>
