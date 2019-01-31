@@ -66,8 +66,8 @@ body{
     left: 19px;
     right: 10px;
     width: 94%;
-    height: 460px;
-    max-height: 460px;
+    height: 472px;
+    max-height: 472px;
     position: fixed;
 }
 .main-content h1{
@@ -161,6 +161,11 @@ div.textField-index{
     float: right;
     margin-bottom: 5px;
     
+}
+.comment{
+    font-style: italic;
+    color: red;
+    font-size: 14px;
 }
 div.textField-index a{
     text-decoration: none;
