@@ -49,15 +49,14 @@ body{
 .main-content{
     background-color:#a3a73f7a;
     border-radius: 10px;
-    padding: 20px;
+    padding: 15px;
     top:50px;
     left: 19px;
     right: 10px;
     width: 94%;
-    height: 472px;
-    max-height: 472px;
+    height: 434px;
+    max-height: 434px;
     position: fixed;
-    overflow-y: scroll;
 }
 .main-content-index{
     background-color:#a3a73f7a;
@@ -67,8 +66,8 @@ body{
     left: 19px;
     right: 10px;
     width: 94%;
-    height: 472px;
-    max-height: 472px;
+    height: 460px;
+    max-height: 460px;
     position: fixed;
 }
 .main-content h1{
@@ -105,11 +104,18 @@ div.content{
 }
 div.formContent{
     width: 475px;
+    float: left;
 }
 div.label{
     color: #236421c4;
-    width: 200px;
+    width: 215px;
     float: left;
+    margin-bottom: 5px;
+}
+div.label-pic{
+    color: #236421c4;
+    width: 270px;
+    float: right;
     margin-bottom: 5px;
 }
 div.textField{
@@ -165,6 +171,12 @@ div.textField-index input{
     border-radius: 5px;
     width: 270px;
 }
+div.profile-pic{
+    float: right;
+    width: 400px;
+    padding: 10px;
+    align-content: center;
+}
 .button{
     font-family: 'Roboto', sans-serif;
     border: none;
@@ -189,4 +201,9 @@ div.textField-index input{
 .button-sub:hover{
     background-color: #afb946;
     color:white;
+}
+.img{
+    /* float: left; */
+    margin-bottom: 5px;
+    border-radius: 25px;
 }
