@@ -201,7 +201,7 @@ div.textField select{
 div.textField input[type="date"]{
     padding: 8px;
     border-radius: 5px;
-    width: 290px;
+    width: 271px;
     font-family: inherit;
 }
 .date-sum{
