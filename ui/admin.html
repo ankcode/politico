@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Electronic Voting System">
+    <meta name="keywords" content="Voting Sytem, E-Vote, Politico">
+    <meta name="author" content="Frank Mochoge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politico - Admin - CP</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous|Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand-nav">Politico</li>
+            <li><a href="#">Admin | Political Parties</a></li>
+            <li><a href="home.html">Dashboard</a></li>
+            <li><a href="admin-office.html">Political Office</a></li>
+            <li><a href="index.html">Profile</a></li>
+            <li><a href="index.html">Sign Out</a></li>
+        </ul>
+    </nav>
+    <div class="main-content-admin">
+            <div class="formContent-admin">
+                <table>
+                    <tr>
+                        <th colspan="7">Political Parties</th>
+                        <th><button onclick="newForm()">Add New</button></th>
+                    </tr>
+                    <tr>
+                        <th>Party ID</th>
+                        <th>Party Name</th>
+                        <th>Party Symbol</th>
+                        <th>Contact</th>
+                        <th>Chair Person</th>
+                        <th>Secretary</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                    <tr>
+                        <td>PK-01</td>
+                        <td>New Party Kenya</td>
+                        <td>symbol link</td>
+                        <td>020 10000000</td>
+                        <td>A.N Doe</td>
+                        <td>S.N Jane</td>
+                        <td><button onclick="editForm()">Edit</button></td>
+                        <td><button>Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>PK-01</td>
+                        <td>New Party Kenya</td>
+                        <td>symbol link</td>
+                        <td>020 10000000</td>
+                        <td>A.N Doe</td>
+                        <td>S.N Jane</td>
+                        <td><button onclick="editForm()">Edit</button></td>
+                        <td><button>Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>PK-01</td>
+                        <td>New Party Kenya</td>
+                        <td>symbol link</td>
+                        <td>020 10000000</td>
+                        <td>A.N Doe</td>
+                        <td>S.N Jane</td>
+                        <td><button onclick="editForm()">Edit</button></td>
+                        <td><button>Delete</button></td>
+                    </tr>
+                </table>
+
+
+            </div>
+    </div>
+    <div id="new-form" class="new-modal">
+        <div class="new-modal-content">
+                <form name="signup" method="POST" action="">
+                        <div class="profile-pic">
+                                <div class="textField">
+                                <img class="img" src="default-profile-picture1-744x744.jpg" alt="Profile Picture" width="150" height="150">
+                                </div>
+                                <div class="clear"></div>
+                                <div class="label">
+
+                                </div>
+                                <div class="textField">
+                                        <button type="submit" value="Sign Up" name="register">Register Party</button>
+                                </div>
+                        </div>
+                        <div class="formContent">
+
+                                <div class="label-new">
+                                        <label for="partyID">Party ID:</label>
+                                </div>
+                                <div class="textField">
+                                        <input type="text" name="partyID" id="partyID" value="" placeholder="Party ID" required />
+                                </div>
+                                <div class="clear"></div>
+                                <div class="label-new">
+                                        <label for="partyName">Party Name:</label>
+                                </div>
+                                <div class="textField">
+                                        <input type="text" name="partyName" id="partyName" value="" placeholder="Party Name" />
+                                </div>
+                                <div class="clear"></div>
+                                <div class="label-new">
+                                        <label for="chairperson">Chairperson:</label>
+                                </div>
+                                <div class="textField">
+                                        <input type="text" name="chairperson" id="chairperson" value="" placeholder="Chair Person" required />
+                                </div>
+                                <div class="clear"></div>
+                                <div class="label-new">
+                                        <label for="secretary">Party Secretary:</label>
+                                </div>
+                                <div class="textField">
+                                        <input type="text" name="secretary" id="secretary" value="" placeholder="Party Secretary" required/>
+                                </div>
+                                <div class="clear"></div>
+                                <div class="label-new">
+                                        <label for="contact">Contact:</label>
+                                </div>
+                                <div class="textField">
+                                        <input type="text" name="contact" id="contact" value="" pattern="(d){10}"
+                                                placeholder="Contact" required />
+                                </div>
+                        </div>
+                </form>
+        </div>
+    </div>
+    <div id="edit-form" class="new-modal">
+            <div class="new-modal-content">
+                    <form name="signup" method="POST" action="">
+                            <div class="profile-pic">
+                                    <div class="textField">
+                                    <img class="img" src="default-profile-picture1-744x744.jpg" alt="Profile Picture" width="150" height="150">
+                                    </div>
+                                    <div class="clear"></div>
+                                    <div class="label">
+    
+                                    </div>
+                                    <div class="textField">
+                                            <button type="submit" value="Save Changes" name="saveParty">Save Changes</button>
+                                    </div>
+                            </div>
+                            <div class="formContent">
+    
+                                    <div class="label-new">
+                                            <label for="partyID">Party ID:</label>
+                                    </div>
+                                    <div class="textField">
+                                            <input type="text" name="partyID" id="partyID" value="" placeholder="Party ID" required />
+                                    </div>
+                                    <div class="clear"></div>
+                                    <div class="label-new">
+                                            <label for="partyName">Party Name:</label>
+                                    </div>
+                                    <div class="textField">
+                                            <input type="text" name="partyName" id="partyName" value="" placeholder="Party Name" />
+                                    </div>
+                                    <div class="clear"></div>
+                                    <div class="label-new">
+                                            <label for="chairperson">Chairperson:</label>
+                                    </div>
+                                    <div class="textField">
+                                            <input type="text" name="chairperson" id="chairperson" value="" placeholder="Chair Person" required />
+                                    </div>
+                                    <div class="clear"></div>
+                                    <div class="label-new">
+                                            <label for="secretary">Party Secretary:</label>
+                                    </div>
+                                    <div class="textField">
+                                            <input type="text" name="secretary" id="secretary" value="" placeholder="Party Secretary" required/>
+                                    </div>
+                                    <div class="clear"></div>
+                                    <div class="label-new">
+                                            <label for="contact">Contact:</label>
+                                    </div>
+                                    <div class="textField">
+                                            <input type="text" name="contact" id="contact" value="" pattern="(d){10}"
+                                                    placeholder="Contact" required />
+                                    </div>
+                            </div>
+                    </form>
+            </div>
+        </div>
+    <div class="footer">
+        <p>&#169; <span class="politico">Politico</span> Voting System 2019</p>
+    </div>
+        
+</body>
+<script type="text/javascript" src="admin.js"></script>
+</html>
