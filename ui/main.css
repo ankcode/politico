@@ -267,6 +267,17 @@ div.formContent-admin{
     width: 100%;
     align-content: stretch;
 }
+div.formContent-admin h3{
+    color: #236421;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+div.formContent-admin p{
+    color: #236421;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    font-style: italic;
+}
 div.label-new{
     color: #000000;
     width: 215px;
