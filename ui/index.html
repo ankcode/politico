@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Electronic Voting System">
+    <meta name="keywords" content="Voting Sytem, E-Vote, Politico">
+    <meta name="author" content="Frank Mochoge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politico - Sign In</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous|Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>Politico</li>
+            <li><a href="signup.html">Sign Up</a></li>
+        </ul>
+    </nav>
+    <div class="main-content-index">
+        <!-- <div class="sticky">Sign Up (Please fill in your details and submit to register)</div>
+        <br> -->
+        <form name="signin" method="POST" action="">
+            <div class="formContent-index">
+                <div class="label-index">
+                        <label for="nationalId">National ID/ Passport No:</label>
+                </div>
+                <div class="textField-index">
+                        <input type="text" name="nationalId" id="nationalId" value="" placeholder="National ID/ Passport No:"/>
+                </div>
+                <div class="clear"></div>
+                <div class="label-index">
+                        <label for="password">Password:</label>
+                </div>
+                <div class="textField-index">
+                        <input type="password" name="password" id="password" value="" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Password"/>
+                </div>
+                <div class="clear"></div>
+                <div class="label">
+                        
+                </div>
+                <div class="textField-index">
+                        <button class="button button-sub"type="submit" value="Sign In" name="sigin">Sign In</button>
+                        <label><a href="resetpw.html">Reset Password?</a></label>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="footer">
+        <p>&#169; <span class="politico">Politico</span> Voting System 2019</p>
+    </div>
+</body>
+
+</html>
