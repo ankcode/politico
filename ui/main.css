@@ -198,6 +198,18 @@ div.textField select{
     border-radius: 5px;
     width: 290px;
 }
+div.textField input[type="date"]{
+    padding: 8px;
+    border-radius: 5px;
+    width: 290px;
+    font-family: inherit;
+}
+.date-sum{
+    padding: 8px;
+    border-radius: 5px;
+    font-family: inherit;
+    box-sizing: border-box;
+}
 div.politicallabel{
     color: #ffffff;
     width: 320px;
