@@ -6,6 +6,8 @@ Politico is an Electronic Voting System that enables citizens give their mandate
 It also allows politicians to view and select an office that they are interested in vying for.
 
 [politico app](https://ankcode.github.io/politico/ui/index.html)
+
+
 [PT Stories](https://www.pivotaltracker.com/n/projects/2241640)
 
 
